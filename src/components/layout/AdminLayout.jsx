@@ -19,7 +19,7 @@ const NAV = [
   { to: '/messages', label: 'Messages', icon: MessageSquare },
 ];
 
-const WEBSITE_URL = import.meta.env.VITE_WEBSITE_URL || 'http://localhost:5173';
+const WEBSITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://hospital-frontend-pi-murex.vercel.app/';
 
 function SidebarContent({ onNavigate }) {
   const user = useAuthStore((s) => s.user);
